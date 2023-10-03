@@ -69,7 +69,6 @@ body {
   padding: 20px;
   position: relative;
   overflow: hidden;
-  /* transform: scale(1.25); */
 }
 
 .light .calendar {
@@ -206,6 +205,10 @@ body {
 
 .month-picker:hover {
   background-color: var(--color-hover);
+}
+
+#year{
+  padding-bottom: 1rem;
 }
 
 .year-picker {
